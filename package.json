@@ -1,0 +1,20 @@
+{
+  "name": "pi-themes",
+  "version": "0.1.0",
+  "description": "Colección de 7 temas de color para pi coding agent: deep-blue, deep-green, matrix, midnight, sunset, vaporwave y colorful.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "themes",
+    "temas"
+  ],
+  "license": "AGPL-3.0-only",
+  "pi": {
+    "themes": [
+      "themes/*.json"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
